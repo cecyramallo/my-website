@@ -1,0 +1,200 @@
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+.text-petrol-blue {
+  color: #628BA4;
+}
+
+.text-leave-green {
+  color: #5E8C61;
+}
+
+.typed-text {
+  color: #4E6151;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-22 {
+  font-size: 22px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.font-size-30 {
+  font-size: 30px;
+}
+
+.font-size-40 {
+  font-size: 40px;
+}
+
+.font-size-50 {
+  font-size: 50px;
+}
+
+.font-size-60 {
+  font-size: 60px;
+}
+
+.font-size-70 {
+  font-size: 70px;
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.font-weight-800 {
+  font-weight: 800;
+}
+
+.center {
+  text-align: center;
+}
+
+.cursor {
+  display: inline-block;
+  width: 3px;
+  background-color: #000;
+  opacity: 70%;
+  margin-left: 2px;
+  animation: blink 1s infinite;
+}
+
+nav {
+  background-color: #5E8C61;
+  color: #fff;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#logo {
+  border-radius: 50px;
+  width: 150px;
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+li a {
+  color: #E7FBF7;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #D3EEE1;
+  text-decoration: none;
+}
+
+p strong a {
+  color: #628BA4;
+  text-decoration: none;
+}
+
+p strong a:hover {
+  color: #628BA4;
+  text-decoration: none;
+}
+
+.text {
+  background-color: #D3EEE1;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.contact-button {
+  background: #E7FBF7;
+  border: none;
+  border-radius: 30px;
+  color: #5E8C61;
+  font-family: 'Nunito', sans-serif;
+  height: 53px;
+  width: 207px;
+}
+
+.contact-button:hover {
+  background-color: #D3EEE1;
+}
+
+.contact-button:focus {
+  outline: none;
+}
+
+.class-button {
+  background: #5E8C61;
+  border: none;
+  border-radius: 30px;
+  color: #E7FBF7;
+  font-family: 'Nunito', sans-serif;
+  height: 53px;
+  width: 207px;
+}
+
+.class-button:hover {
+  background-color: #4E6151;
+}
+
+.class-button:focus {
+  outline: none;
+}
+
+#mobile-container {
+  display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  #desktop-container {
+    display: none;
+  }
+
+  #mobile-container {
+    display: block;
+  }
+
+  /* Mobile CSS */
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  body {
+    text-align: center;
+    width: 100%;
+  }
+
+  * {
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .font-size-30 {
+    font-size: 30px;
+  }
+}
